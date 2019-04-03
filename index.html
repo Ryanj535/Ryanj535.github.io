@@ -9,38 +9,82 @@
 
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-4"; background=#868e96>
 
-  <header>
-    <h1>Student Bio</h1>
-  </header>
 
-  <main class="container">
-    <section id="main-bio">
-      <section id="figure">
-        <h2 id="bio-name">Your Name</h2>
-        <img id="bio-image" src="images/profile_pic.jpg" alt="Ryan Joseph">
-      </section>
-      <p>A graduate of the University of Central Florida, Ryan holds his Bachlors of Science
-      in Business Administration. He graduating in 2012 and currently resides in Casselberry, FL.</p>
-      <br>
-      <p>Ryan enjoys playing golf, shooting pool, and fishing. When Ryan isn't slaving away at his Data
-      Analytics and Visualization Boot Camp homework, you can find him sitting on the couch watching CNBC. <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="file:///C:/Users/Ryan/mywebpage/Ryanj535.github.io/index.html#"><b>Latitude</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </div>
+  <div class="col-md-4";background=#868e96>
+  </div>
+  <div class="col-md-4">
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-primary">Plots</button>
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+  </div>
+  <button type="button" class="btn btn-success">Comparison</button>
+  <button type="button" class="btn btn-info">Data</button>
+</div>
+</div>
+</nav>
 
-    <aside id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">rijoseph89@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">RyanJ535</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </aside>
-  </main>
+<div class="jumbotron">
+  <h1 class="display-3">Summary: Latitude vs. X</h1>
+  <p class="lead">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,
+  we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
+  <p class="lead">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature,
+     cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as
+     explanations and descriptions of any trends and correlations witnessed. </p>
+  <hr class="my-4">
+  <p>Click a picture below to learn more!</p>
+  <div class="row">
+    <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <img class="card-img-top" src="Resources\assets\images\fig1" alt="Card image cap">
+  </div>
+</div>
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <img class="card-img-top" src="Resources\assets\images\fig2" alt="Card image cap">
+  </div>
+</div>
+</div>
+<div class="row">
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <img class="card-img-top" src="Resources\assets\images\fig3" alt="Card image cap">
+  </div>
+</div>
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <img class="card-img-top" src="Resources\assets\images\fig4" alt="Card image cap">
+  </div>
+</div>
+</div>
 
+  </div>
+</div>
 </body>
 
 </html>
