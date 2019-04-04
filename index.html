@@ -11,9 +11,12 @@
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body id="Home">
   <div class="container">
@@ -38,7 +41,8 @@
           </div>
         </div>
 
-          <button type="button" class="btn btn-success">Comparison</button>
+        <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/comparison.html">
+        <button type="button" class="btn btn-success">Comparison</button></a>
 
           <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/data.html">
             <button type="button" class="btn btn-info">Data</button> </a>
@@ -46,53 +50,41 @@
 
       </nav>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-      </div>
-    </div>
 
   <div class="jumbotron">
     <h1 class="display-3">Summary: Latitude vs. X</h1>
     <p class="lead">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,
-      we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
+      we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
     <p class="lead">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature,
      cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as
      explanations and descriptions of any trends and correlations witnessed. </p>
   <hr class="my-4">
-  <p>Click a picture below to learn more!</p>
+  <div class="alert alert-dismissible alert-info">
+    <h4 class="alert-heading">Visualizations</h4>
+  </div>
   <div class="row">
-    <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
+    <div class="card text-white bg-primary mb-3" style="max-width: 16rem;margin-left:15px">
   <div class="card-header">Latitude vs. Temperature</div>
-  <div class="card-body">
-    <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/temp.html">
+  <div class="card-body" style="padding:0">
     <img class="card-img-top" src="Resources\assets\images\fig1.png" alt="Card image cap">
-    </a>
   </div>
 </div>
-<div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
+<div class="card text-white bg-primary mb-3" style="max-width: 16rem;margin-left:8px">
   <div class="card-header">Latitude vs. Humidity</div>
-  <div class="card-body">
-    <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/humidity.html">
+  <div class="card-body" style="padding:0">
     <img class="card-img-top" src="Resources\assets\images\fig2.png" alt="Card image cap">
-    </a>
   </div>
 </div>
-</div>
-<div class="row">
-<div class="card text-white bg-primary mb-3" style="max-width: 30rem;align:right">
+<div class="card text-white bg-primary mb-3" style="max-width: 16rem;margin-left:8px">
   <div class="card-header">Latitude vs. Cloudiness</div>
-  <div class="card-body">
-    <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/cloudiness.html">
+  <div class="card-body" style="padding:0">
     <img class="card-img-top" src="Resources\assets\images\fig3.png" alt="Card image cap">
-    </a>
   </div>
 </div>
-<div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
+<div class="card text-white bg-primary mb-3" style="max-width: 16rem;margin-left:8px">
   <div class="card-header">Latitude vs. Wind Speed</div>
-  <div class="card-body">
-    <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/wind_speed.html">
+  <div class="card-body" style="padding:0">
     <img class="card-img-top" src="Resources\assets\images\fig4.png" alt="Card image cap">
-    </a>
   </div>
 </div>
 </div>

@@ -11,6 +11,10 @@
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,35 +28,35 @@
         <div class="col-md-4";background=#868e96>
         </div>
         <div class="col-md-4">
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
             <button type="button" class="btn btn-primary">Plots</button>
           <div class="btn-group" role="group">
             <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="#">Dropdown link</a>
-            <a class="dropdown-item" href="#">Dropdown link</a>
-            <a class="dropdown-item" href="#">Dropdown link</a>
-            <a class="dropdown-item" href="#">Dropdown link</a>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/humidity.html">Humidity</a>
+              <a class="dropdown-item" href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/wind_speed.html">Wind Speed</a>
+            </div>
           </div>
-          </div>
-          </div>
-          <button type="button" class="btn btn-success">Comparison</button>
+        </div>
+
+        <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/comparison.html">
+        <button type="button" class="btn btn-success">Comparison</button></a>
+
           <a href="C:/Users/Ryan/mywebpage/Ryanj535.github.io/data.html">
             <button type="button" class="btn btn-info">Data</button> </a>
         </div>
+
       </nav>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-      </div>
-    </div>
-
   <div class="jumbotron">
     <h1 class="display-3">Latitude vs. Humidity</h1>
-
-
+    <img src="Resources\assets\images\fig2.png" alt="Latitude versus Humidity" style="float:left;width:600px;height:413px;margin-right:40px;">
+    <p class="lead" style="margin-top:100px;padding-bottom:12%">There does not appear to be a relationship between humidity and latitiude based on the date received.
+    From the graph, you can clearly see humidity evenly dispersed across all latitudes. </p>
   </div>
-</div>
+
 </body>
 
 </html>
